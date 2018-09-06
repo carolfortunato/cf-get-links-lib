@@ -1,0 +1,27 @@
+{
+  "name": "cf-get-links-lib",
+  "version": "1.0.0",
+  "description": "Essa biblioteca serve para separar markdowns de texto de links e URLs do texto. Na versão atual, \r extrai os textos de dentro dos [] e as URLs.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolfortunato/cf-get-links-lib.git"
+  },
+  "author": "Carolina Fortunato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolfortunato/cf-get-links-lib/issues"
+  },
+  "homepage": "https://github.com/carolfortunato/cf-get-links-lib#readme"
+}

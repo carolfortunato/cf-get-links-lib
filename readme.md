@@ -11,8 +11,8 @@ getLinksFromMd(text);
 Exemplo de Uso:
 ```
 $node
-> let links = require("getLinksFromMd")
-> links("oi [google] https://www.google.com tudo bem com você?"); 
+> let links = require("cf-get-links-lib")
+> links.getLinksFromMd("oi [google] https://www.google.com tudo bem com você?"); 
 //[{ href: 'https://www.google.com',
 //   text: '[google]' }]);
 
